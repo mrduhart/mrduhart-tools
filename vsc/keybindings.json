@@ -1,0 +1,75 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+    {
+        "key": "ctrl+k ctrl+l",
+        "command": "editor.action.transformToLowercase"
+    },
+    {
+        "key": "ctrl+k ctrl+u",
+        "command": "editor.action.transformToUppercase"
+    },
+    {
+        "key": "ctrl+shift+v",
+        "command": "pasteAndIndent.action",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    // {
+    //     "key": "ctrl+v",
+    //     "command": "editor.action.clipboardPasteAction",
+    //     "when": "!editorTextFocus"
+    // },
+    // {
+    //     "key": "ctrl+v",
+    //     "command": "editor.action.clipboardPasteAction",
+    //     "when": "editorTextFocus && !editorReadonly"
+    // },
+    {
+        "key": "ctrl+alt+oem_3",
+        "command": "workbench.action.terminal.kill",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "shift+down",
+        "command": "workbench.action.terminal.focusNext",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "shift+up",
+        "command": "workbench.action.terminal.focusPrevious",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+alt+k ctrl+alt+o",
+        "command": "workbench.action.addRootFolder"
+    },
+    {
+        "key": "ctrl+alt+s",
+        "command": "r.runSource",
+        "when": "editorTextFocus && editorLangId == 'r'"
+    },
+    {
+        "key": "ctrl+shift+s",
+        "command": "-r.runSource",
+        "when": "editorTextFocus && editorLangId == 'r'"
+    },
+    {
+        "key": "ctrl+up",
+        "command": "workbench.action.terminal.scrollUp",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+alt+pageup",
+        "command": "-workbench.action.terminal.scrollUp",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+down",
+        "command": "workbench.action.terminal.scrollDown",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+alt+pagedown",
+        "command": "-workbench.action.terminal.scrollDown",
+        "when": "terminalFocus"
+    }
+]

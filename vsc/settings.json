@@ -1,0 +1,46 @@
+{
+    "window.zoomLevel": 1,
+    "editor.fontSize": 16,
+    "editor.suggestFontSize": 16,
+    "terminal.integrated.fontSize": 16,
+    "files.insertFinalNewline": true,
+
+    "workbench.colorTheme": "Monokai",
+    "workbench.colorCustomizations": {
+        "editor.selectionBackground": "#ffffff36",
+        "editor.findMatchHighlightBackground": "#f78ae744",
+        "editor.findMatchBackground": "#ff000060"
+    },
+    "editor.tokenColorCustomizations": {
+        "comments": "#B3AA8F"
+    },
+    "csv-preview.resizeColumns": "all",
+    "editor.rulers": [80, 100],
+    "files.trimTrailingWhitespace": true,
+    "editor.wordWrap": "bounded",
+    "editor.wordWrapColumn": 100,
+
+    "r.rterm.windows": "C:\\Program Files\\Anaconda3\\R\\bin\\x64\\R.exe",
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
+    "matlab.mlintpath": "C:\\Program Files\\MATLAB\\R2012b\\bin\\win64",
+
+
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.lineHeight": 1.25,
+    "workbench.panel.location": "bottom",
+
+    "editor.parameterHints": true,
+    "editor.accessibilitySupport": "off",
+    "breadcrumbs.enabled": true,
+    "editor.detectIndentation": false,
+    "[html]": {
+        "editor.tabSize": 2,
+    },
+    "[css]": {
+        "editor.tabSize": 2,
+    },
+    "window.titleBarStyle": "custom",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+}

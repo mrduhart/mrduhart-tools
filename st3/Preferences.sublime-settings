@@ -1,0 +1,52 @@
+{
+	"added_words":
+	[
+		"rambleras",
+		"pakis",
+		"nudista",
+		"enfermizamente",
+		"pizzería",
+		"Barcelona",
+		"Raval",
+		"chamacos",
+		"Thor",
+		"pub",
+		"proponente",
+		"piercings",
+		"Lesseps",
+		"Nah",
+		"Beer",
+		"magnéticamente",
+		"provocativamente"
+	],
+	"auto_complete_delay": 300,
+	"color_scheme": "Packages/Colorsublime - Themes/Monokai.tmTheme",
+	"detect_indentation": true,
+	"dictionary": "Packages/User/Language - Spanish/es_MX.dic",
+	"ensure_newline_at_eof_on_save": true,
+	"font_size": 16,
+	"ignored_packages":
+	[
+		"Anaconda",
+		"Text Pastry",
+		"Vintage"
+	],
+	"line_padding_bottom": 2,
+	"line_padding_top": 2,
+	"mdpopups.sublime_user_lang_map": null,
+	"mdpopups.use_sublime_highlighter": null,
+	"origami_auto_close_empty_panes": true,
+	"origami_auto_zoom_on_focus": false,
+	"rulers":
+	[
+		80,
+		100
+	],
+	"show_encoding": true,
+	"tab_size": 4,
+	"theme": "Default.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_automatic_white_space": true,
+	"trim_trailing_white_space_on_save": true,
+	"word_wrap": "true",
+}

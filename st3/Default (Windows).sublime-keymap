@@ -1,0 +1,16 @@
+[
+    { "keys": ["ctrl+k", "ctrl+k"], "command": "toggle_comment", "args": { "block": false } },
+    { "keys": ["ctrl+k", "ctrl+shift+k"], "command": "toggle_comment", "args": { "block": true } },
+    // { "keys": ["ctrl+alt+b"], "command": "toggle_side_bar" },
+    { "keys": ["ctrl+alt+c"], "command": "show_panel", "args": {"panel": "console", "toggle": true} },
+    { "keys": ["pause"], "command": "cancel_build" },
+    { "keys": ["ctrl+shift+b"], "command": "build", "args": {"select": true} },
+    { "keys": ["ctrl+alt+b"], "command": "toggle_breakpoint" },
+    // { "keys": ["pause"], "command": "subprocess_repl_send_signal", "args": {"signal": 2},  // sigint
+    // "context":
+    //     [
+    //         { "key": "setting.repl", "operator": "equal", "operand": true }
+    //     ]
+    // },
+]
+
